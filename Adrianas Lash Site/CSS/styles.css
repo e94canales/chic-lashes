@@ -1,0 +1,332 @@
+body {
+  background-color: #ffcece;
+}
+
+hr {
+  width: 60%;
+  height: 2px;
+  background-color: white;
+  text-align: center;
+  border: none;
+}
+
+#navbar {}
+
+#title {
+  text-align: center;
+  background-color: white;
+}
+
+#featured {}
+
+#ft-hr {
+  width: 15%;
+  height: 2px;
+  background-color: white;
+  text-align: center;
+  border: none;
+}
+
+#footer {
+  text-align: center;
+}
+
+.middle-section {
+  width: 100%;
+  height: 600px;
+}
+
+.navbar-conatiner {
+  padding: 45px;
+}
+
+.navbar-brand {
+  color: white;
+  text-decoration: none;
+  font-family: "Julius Sans One";
+  font-size: 7rem;
+}
+
+.navbar-brand:hover {
+  color: white;
+}
+
+.fa-bars {
+  color: white;
+  font-size: 1.8rem;
+  padding: 10px;
+  margin-right: 30px;
+}
+
+.fa-bars:hover {
+  cursor: pointer;
+}
+
+.menutxt {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffb1b1;
+  display: block;
+  font-family: "Montserrat";
+  border-bottom: solid 1px;
+  border-color: #ffb1b1;
+  font-weight: 400;
+}
+
+.title-image-conatiner {
+  width: auto;
+  height: 550px;
+  background-position: 0 70%;
+  background-image: url(http://beauty-fashion-tips.com/wp-content/uploads/2018/01/maxresdefault-118.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-container-container {
+  border-top: 30px solid white;
+  border-bottom: 20px solid white;
+}
+
+.ft-text {
+  font-family: "Montserrat";
+  font-size: 60px;
+  color: white;
+  padding: 3% 5%;
+}
+
+.button-container {
+  text-align: center;
+  /* border-bottom: 2px solid white; */
+}
+
+.ft-buttons {
+  color: #fff;
+  padding: 1% 5%;
+  margin: 8% 5%;
+  background-color: #ffb1b1;
+  font-family: "Montserrat";
+  /* font-weight: 700; */
+  font-size: 40px;
+  border: 0;
+  /* width: 20%; */
+}
+
+.btn:hover {
+  background-color: #5a1515;
+  color: #fff;
+}
+
+.badge-left {
+  position: relative;
+  top: 40px;
+  left: 20px;
+  z-index: 22;
+  background-color: green;
+}
+
+.badge-middle {
+  position: relative;
+  top: 40px;
+  left: 20px;
+  z-index: 22;
+  background-color: orange;
+}
+
+.badge {
+  font-size: 15px;
+  /* background-color: green; */
+}
+
+.ft-spotlight {
+  padding-top: 5%;
+  padding-bottom: 8%;
+}
+
+.ft-collabs {
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+.collab-img {
+  width: 100%;
+  height: 30vw;
+  object-fit: cover;
+}
+
+.collab-img-bot1 {
+  width: 100%;
+  height: 30vw;
+  /* padding: 4% 0 0 20%; */
+  background-color: #ffcece;
+  object-position: center;
+  object-fit: cover;
+}
+
+.collab-img-bot2 {
+  width: 100%;
+  height: 30vw;
+  /* padding: 4% 20% 0 0; */
+  background-color: #ffcece;
+  object-position: center;
+  object-fit: cover;
+}
+
+.bot-collab-conatiner {
+  padding: 5% 2%;
+}
+
+.card {
+  border: 0;
+}
+
+.ft-card-footer {
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 35px;
+  background-color: #ffcece;
+  text-align: center;
+  padding: 5% 5% 0;
+}
+
+.collab-artist-names {
+  font-family: "Montserrat";
+  font-size: 40px;
+  text-align: center;
+  background-color: #ffcece;
+  padding: 15px 0;
+  margin: 0;
+  border: 0;
+  color: #fff;
+}
+
+.footer-text {
+  font-family: "Montserrat";
+  font-size: 25px;
+  color: gray;
+  padding-bottom: 1%;
+}
+
+.footer-icons {
+  color: #fff;
+  font-size: 30px;
+}
+
+.fab:hover {
+  color:  #5a1515;
+}
+
+.fab {
+  padding: 10px;
+}
+
+.ft-main-container{
+
+}
+
+.ft-main-container:hover {
+  filter:drop-shadow(8px 8px 10px gray);
+  /* opacity: 0.6; */
+  filter: blur(5px);
+  cursor: pointer;
+}
+
+.overlay-text {
+  position: absolute;
+  color: #5a1515;
+  font-family: "Montserrat";
+  font-size: 45px;
+  /* font-weight: 700; */
+  z-index: 88;
+  left: 1px;
+  bottom: 1px;
+  opacity: 0;
+  padding: 35%;
+  margin-left: 30px;
+  /* margin-top: 30px; */
+}
+ .overlay-text:hover {
+  opacity: 1;
+  z-index: 9999;
+}
+/* /////////////////////////////////////////////////// */
+/* The side navigation menu */
+.sidenav {
+  height: 100%;
+  /* 100% Full-height */
+  width: 0;
+  /* 0 width - change this with JavaScript */
+  position: fixed;
+  /* Stay in place */
+  z-index: 6;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
+  right: 0;
+  background-color: #5a1515;
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 60px;
+  /* Place content 60px from the top */
+  transition: 0.2s;
+  /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #ffb1b1;
+  display: block;
+  transition: 0.3s;
+  font-family: "Montserrat";
+  font-weight: 400
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: white;
+  background-color: #ea9090;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.sidenav .closebtn:hover {
+  color: red;
+  background-color: #5a1515;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-width: 640px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 25px;
+  }
+
+  .menutxt {
+    font-size: 35px;
+  }
+}
